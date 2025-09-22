@@ -13,13 +13,15 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $grade = $_POST['grade'];
 
-        if ($grade >= 90) {
-            echo "With Honors.";
-        } elseif ($grade >= 75) {
+        } if ($grade >= 75) {
             echo "Passed";
         } else {
             echo "Failed";
         }
+
+        
+        if ($grade >= 90) {
+            echo "With Honors.";
     }
     ?>
 </body>
