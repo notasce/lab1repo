@@ -14,9 +14,9 @@
         $grade = $_POST['grade'];
 
         } if ($grade >= 75) {
-            echo "Passed";
+            echo "Passed<br>";
         } else {
-            echo "Failed";
+            echo "Failed<br>";
         }
 
         
